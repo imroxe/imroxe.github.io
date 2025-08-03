@@ -2,5 +2,6 @@
     "title":"Roxe",
     "subTitle":"Blog description",
     "avatarUrl":"https://github.com/oaxao/Simplecho/blob/master/images/author_icon.png",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "allHead":"<style>body[data-ui-pending] #content {opacity:0;transition:opacity 0.3s ease;}</style><script>document.documentElement.setAttribute('data-ui-pending','true');</script><link rel='stylesheet' href='https://code.buxiantang.top/assets/GmeekBaseTheme.css'><script src='https://code.buxiantang.top/assets/GmeekCustomizeCss.js' defer></script>"
 }
