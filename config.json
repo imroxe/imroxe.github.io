@@ -3,6 +3,7 @@
     "subTitle":"风起于青萍之末，浪成于微澜之间！",
     "avatarUrl":"https://gcore.jsdelivr.net/gh/oaxao/Simplecho/images/author_icon.png",
     "GMEEK_VERSION":"last",
+    "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
     "allHead":"<style>body[data-ui-pending] #content {opacity:0;transition:opacity 0.3s ease;}</style><script>document.documentElement.setAttribute('data-ui-pending','true');</script><link rel='stylesheet' href='https://code.buxiantang.top/assets/GmeekBaseTheme.css'><script src='https://code.buxiantang.top/assets/GmeekCustomizeCss.js' defer></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>"
 }
