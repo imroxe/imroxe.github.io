@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    <style>body[data-ui-pending] #content {opacity:0;transition:opacity 0.3s ease;}</style><script>document.documentElement.setAttribute('data-ui-pending','true');</script><link rel='stylesheet' href='https://code.buxiantang.top/assets/GmeekBaseTheme.css'><script src='https://code.buxiantang.top/assets/GmeekCustomizeCss.js' defer></script>
+    <link rel="icon" href="https://gcore.jsdelivr.net/gh/imroxe/Simplecho/images/author_icon.png"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="一次简单的通联大致分为：发起呼叫 回应呼叫 交换信息 结束通联 几个过程。">
+<meta property="og:title" content="业余无线电如何进行一次简单的通联">
+<meta property="og:description" content="一次简单的通联大致分为：发起呼叫 回应呼叫 交换信息 结束通联 几个过程。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://imroxe.github.io/post/ye-yu-wu-xian-dian-ru-he-jin-xing-yi-ci-jian-dan-de-tong-lian.html">
+<meta property="og:image" content="https://gcore.jsdelivr.net/gh/imroxe/Simplecho/images/author_icon.png">
+<title>业余无线电如何进行一次简单的通联</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">业余无线电如何进行一次简单的通联</h1>
+<div class="title-right">
+    <a href="https://imroxe.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><p>一次简单的通联大致分为：发起呼叫 回应呼叫 交换信息 结束通联 几个过程。</p>
+<p>本文介绍的通联过程是按照规范来说比较标准的过程，实际的通联过程中的实际情况可能多少有些不同，但是这些步骤基本都会遵循。</p>
+<p>如果你对业余无线电感兴趣，我们已经开发了一款专门用于备考《中华人民共和国业余无线电台操作证书》的应用程序，名为「电波浪」。这款应用已在各大手机应用商店上架，方便大家随时下载使用。如果你正在寻找一款有效的备考工具，或者你已经在为考试做准备，那么「电波浪」将会是你的理想选择。它以高效的题库刷题功能，助你一臂之力，让你的备考之路更加顺利。</p>
+<h2>通联前的准备</h2>
+<p>通常首先需要确定你使用的频率没有其他人正在使用。在你准备使用的频率上守听一会儿。业余频段上工作的电台很多，互相之间要避免干扰。如果听到频率上已经有电台在工作，就应主动换频率。</p>
+<p>守听：是指在频率上听其它电台通联，并不发射信号。</p>
+<p>呼叫方式：</p>
+<p>中文方式：这个频率上有人吗？</p>
+<p>英文方式：Is this frequency in use? 或着 Any body here？</p>
+<p>呼叫后一段时间无人回应则可以发起 CQ 呼叫</p>
+<h2>发起呼叫</h2>
+<p>CQ：是一个业余无线电中最常见的通讯术语，是英文 Seek You 的简写，意思是寻找你。</p>
+<p>在通联过程中要经常报出自己的呼号。国际电信联盟《无线电规则》规定：各业余电台在发信过程中，应该每隔一段时间就要发送他们的呼号。</p>
+<p>为了减少部分字母在因为信号接收质量不高，或呼叫者说话口音较重造成的误解，全球ham在通联时都会使用字母解释法播报呼号，字母解释法（详见附表）</p>
+<p>几种呼叫方式：</p>
+<h2>广泛呼叫</h2>
+<p>不指定应答方或应答范围，所有收到信号的 业余无线电台 都可以回应。</p>
+<p>中文方式：CQ CQ CQ 这里是（自己呼号），（自己呼号的字母解释法） 呼叫，请回答。</p>
+<p>英文方式：CQ CQ CQ this is （自己呼号），（自己呼号的字母解释法） Calling CQ and standing by.</p>
+<h2>区域呼叫</h2>
+<p>意思是仅呼叫某个地区的电台或某个网络内的电台、比赛中的呼叫等。这种呼叫和广泛呼叫主要区别是会在CQ后面加上附加条件。比如中国5区电台，可以这样呼叫：</p>
+<p>中文方式：CQ BRAVO 5 区电台，CQ BRAVO 5区电台，这里是 （自己呼号），（自己呼号的字母解释法） 请回答</p>
+<p>英文方式：CQ Bravo 5, CQ Bravo 5, this is （自己呼号），（自己呼号的字母解释法） please come back.</p>
+<p>另外几个例子：</p>
+<p>呼叫欧洲电台：CQ EUROPE，CQEUROPE，CQ EUROPE …</p>
+<p>呼叫中国电台：CQ BRAVO，CQ BRAVO，CQ BRAVO …</p>
+<p>呼叫不包括本国在内的远距离电台：CQ DX，CQ DX，CQ DX …</p>
+<p>呼叫比赛中的电台：CQ CONTEST …</p>
+<h2>指定电台呼叫</h2>
+<p>指定某个业余无线电台 （对方呼号） 进行呼叫（通常已经与对方事先约定频点和时间），则可以这样叫：</p>
+<p>中文方式： （对方呼号）（对方呼号） 这里是（自己呼号） 呼叫，请回答。</p>
+<p>英文方式： （对方呼号）（对方呼号） this is （自己呼号） calling, please come back.</p>
+<h2>回应呼叫</h2>
+<p>当自己听到某台的呼叫，并且自己满足对方的呼叫条件时，就可以进行应答。回答的程序如下。</p>
+<p>中文方式： （对方呼号）（对方呼号），这里是（自己呼号），（自己呼号的字母解释法），你的信号 59，59（注：59是信号报告），是否抄收？Over</p>
+<p>英文方式： （对方呼号）（对方呼号）, this is （自己呼号）, （自己呼号的字母解释法）, you are 59, 59（注：59是信号报告）, QSL? Over</p>
+<p>回应需要重复对方的呼号，并报上自己的呼号以及对方的信号报告（详见附表）</p>
+<p>QSL 是一个 Q 简语，问句时的意思是：你确认抄收了吗？答句的意思是：我确认抄收了。 另外有 QSL卡片相关意思，这里不做讨论</p>
+<p>如果未听清对方的呼叫，可以这样回应：</p>
+<p>中文方式： QRZ QRZ 这里是（本台呼号）</p>
+<p>英文方式：QRZ QRZ This is （本台呼号）</p>
+<p>QRZ 是一个 Q 简语 ，通常用来询问 你是谁? 或者 我正在呼叫谁? 这个代码通常在听到未知的信号或者需要确认对方呼号时使用</p>
+<h2>交流</h2>
+<p>一旦有人回应，您就可以开始交流了。通常是 无线电相关技术的交流 和 交换双方信息，如信号报告，位置（QTH），天气情况（WX），设备详情（RIG）等。</p>
+<p>中文方式： 收到（或者说抄收了） （对方呼号）这里是 (本台呼号) (本台呼号) （具体内容） 这里是 (本台呼号) Over</p>
+<p>英文方式： Roger （ 对方呼号）This is (本台呼号) (本台呼号) （具体内容） This is (本台呼号) Over</p>
+<h2>结束通联</h2>
+<p>通联结束时，通常会说 73 ，这是无线电术语，意思是 最好的祝愿（Best Regards）</p>
+<p>中文方式：（对方呼号） ，这里是 (本台呼号) 73，再见</p>
+<p>英文方式： (本台呼号), this is (本台呼号), 73 and goodbye.</p>
+<h2>插入呼叫</h2>
+<p>无线电通联时讲究优先权。通俗点说就是先来后到，当UV段通联中，双方长时间占用频率通话，别的电台听到，因紧急情况想请求插入通话，与其中一方通话，或者呼叫别的电台时，在通话双方的短暂问隙间使用。</p>
+<p>中文方式：（自己呼号）请求插入</p>
+<p>英文方式：（自己呼号）Break In</p>
+<p>如果你正在占用的一个频率，你听到有人请求插入时，则应回答。</p>
+<p>如果请对方改一下频率：</p>
+<p>中文方式： 频率正在使用 请 QSY 谢谢</p>
+<p>英文方式： Yes，thefrequency has been in use，please QSY，thank you</p>
+<p>如果允许对方插入：（对方呼号），这里是（自己呼号）与甲（呼号）正在通联，请讲。</p>
+<h2>附表：RST 信号报告如何判断</h2>
+<p>( RST ) 信号报告：Readability（可辦度）Strength（强度）Tone（音调） 其中，T 音调只针对于 CW 电报模式，表示声音是否悦耳，也分 9 级。而语音通讯中就不需要了。</p>
+<p>R：信号可辨度，共分五级，通常可看作语音可辦度</p>
+<p>1 信号完全无法分辨，话音完全被背景噪音覆盖</p>
+<p>2 信号很难分辨，话音几乎完全无法抄收，背景噪音非常强</p>
+<p>3 信号可以辨别，话音可以勉强可以分辨，有较强的背景噪音</p>
+<p>4 信号清晰，话音可以完全抄收，但是有轻微的背景噪音</p>
+<p>5 信号完全清晰，没有任何背景噪音</p>
+<p>S：信号强度（大小），有得设备会带信号强度表，共分九级</p>
+<p>1 刚有些知觉，极弱</p>
+<p>2 很弱</p>
+<p>3 弱</p>
+<p>4 强度尚可</p>
+<p>5 信号还好</p>
+<p>6 好信号</p>
+<p>7 有一定强度的信号</p>
+<p>8 强信号</p>
+<p>9 特别强的信号</p>
+<h2>附表：呼号的字母解释法</h2>
+<p>其实就是采用了26个以该字母开头的单词来表示对应的呼号字母，数字直按用英文播报。如下：</p>
+<p>A - Alpha</p>
+<p>B - Bravo</p>
+<p>C - Charlie</p>
+<p>D - Delta</p>
+<p>E - Echo</p>
+<p>F - Foxtrot</p>
+<p>G - Golf</p>
+<p>H - Hotel</p>
+<p>I - India</p>
+<p>J - Juliet</p>
+<p>K - Kilo</p>
+<p>L - Lima</p>
+<p>M - Mike</p>
+<p>N - November</p>
+<p>O - Oscar</p>
+<p>P - Papa</p>
+<p>Q - Quebec</p>
+<p>R - Romeo</p>
+<p>S - Sierra</p>
+<p>T - Tango</p>
+<p>U - Uniform</p>
+<p>V - Victor</p>
+<p>W - Whiskey</p>
+<p>X - Xray</p>
+<p>Y - Yankee</p>
+<p>Z - Zulu</p>
+<blockquote>
+<p>转载自：<br>
+<a href="https://floatmaze.com/radiowave/posts/How-to-call-CQ-on-amateur-radio.html" rel="nofollow">业余无线电如何进行一次简单的通联 - 电波浪</a></p>
+</blockquote></div>
+<div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://imroxe.github.io">Roxe</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","imroxe/imroxe.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+
+
+</script>
+<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>
+
+</html>
